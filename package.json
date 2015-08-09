@@ -13,12 +13,9 @@
   "author": "Arjun Komath",
   "license": "MIT",
   "dependencies": {
-    "debug": "^2.2.0",
     "express": "^4.13.3",
-    "finalhandler": "^0.4.0",
     "fs": ">0.0.0",
     "jimp": "^0.2.4",
-    "merge-descriptors": "^1.0.0",
     "promise": "^7.0.4"
   }
 }
