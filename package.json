@@ -1,0 +1,19 @@
+{
+  "name": "nodeimage",
+  "version": "1.0.0",
+  "description": "Generate random image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "images"
+  ],
+  "author": "Arjun Komath",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.2.4",
+    "promise": "^7.0.4"
+  }
+}
