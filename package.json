@@ -4,7 +4,7 @@
   "description": "Generate random image",
   "main": "index.js",
   "scripts": {
-      "start": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "random",
@@ -13,9 +13,12 @@
   "author": "Arjun Komath",
   "license": "MIT",
   "dependencies": {
-    "jimp": "^0.2.4",
-    "promise": "^7.0.4",
+    "debug": "^2.2.0",
     "express": ">0.0.0",
-    "fs": ">0.0.0"
+    "finalhandler": "^0.4.0",
+    "fs": ">0.0.0",
+    "jimp": "^0.2.4",
+    "merge-descriptors": "^1.0.0",
+    "promise": "^7.0.4"
   }
 }

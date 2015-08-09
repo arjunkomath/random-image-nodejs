@@ -4,6 +4,8 @@ var fs = require('fs');
 var Jimp = require("jimp");
 var Promise = require('promise');
 
+var port = process.env.PORT || 8080;
+
 var random = function (minimum, maximum) {
     return Math.round( Math.random() * (maximum - minimum) + minimum);
 }
@@ -37,9 +39,9 @@ app.get('/:width/:height', function (req, res) {
                 });
 });
 
-var server = app.listen(3000, function () {
+var server = app.listen(port, function () {
     var host = server.address().address;
     var port = server.address().port;
 
-    console.log('Example app listening at http://%s:%s', host, port);
+    console.log('Yo! App listening at http://%s:%s', host, port);
 });
